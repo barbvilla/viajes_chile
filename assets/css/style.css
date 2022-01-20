@@ -1,4 +1,25 @@
 body{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    background-color: #000000;
+    text-decoration: none;
+}
+
+.texto{
+    display: inline-block;
+}
+
+/* i{
+    background-color:#00d9ffe8;
+} */
+
+.card{
+    color: #ffffff;
+}
+
+.fab{
+    color: #ffffff;
+    padding: 0.5em;
+    font-size: 25px;
 }
