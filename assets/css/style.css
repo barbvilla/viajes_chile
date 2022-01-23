@@ -10,10 +10,6 @@ body{
     display: inline-block;
 }
 
-/* i{
-    background-color:#00d9ffe8;
-} */
-
 .card{
     color: #ffffff;
 }
@@ -23,3 +19,5 @@ body{
     padding: 0.5em;
     font-size: 25px;
 }
+
+

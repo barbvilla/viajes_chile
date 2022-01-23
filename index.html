@@ -17,9 +17,9 @@
     <link rel="shortcut icon" type="#" href="#">
     <meta name="author" content="#">
     <meta name="description" content="#">
-    <meta name="keywords" content="#">
-    
+    <meta name="keywords" content="#">    
 </head>
+
 <body>
 
     <header>
@@ -37,13 +37,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Quienes Somos</a>
+                    <a class="nav-link" href="index.html#quienes">Quienes Somos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Destacados</a>
+                    <a class="nav-link" href="index.html#destacados">Destacados</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contactos</a>
+                    <a class="nav-link" href="index.html#contactos">Contactos</a>
                   </li>
                 </ul>
               </div>
@@ -74,40 +74,41 @@
     </header>
 
 
-    <section class="conteiner col-12 mx-auto" id="quienes">
+    <section class="conteiner d-none d-lg-block mx-auto" id="quienes">
         <h4 class="text-white text-center py-5 fw-bold">¿QUIÉNES SOMOS?</h4>
-        <div class="texto text-white row container d-flex justify-content-center mx-auto pb-5">
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 mx-auto">
-                <p><i class="fas fa-plane"></i><br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Vitae illum laborum optio ea nostrum dolore, nisi assumenda quisquam sunt temporibus 
-                    iure molestias beatae placeat eum fugiat accusamus maiores quidem enim!
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente accusamus 
-                    eveniet quisquam fugiat dignissimos amet et nam laudantium veritatis, nisi 
-                    possimus beatae ab assumenda esse pariatur voluptatem minus doloribus rem.
-                </p>
+        <hr>
+            <div class="texto text-white row container d-flex justify-content-center mx-auto pb-5">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 mx-auto">
+                    <p><div class="text-center bg-info"><i class="fas fa-plane"></i></div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Vitae illum laborum optio ea nostrum dolore, nisi assumenda quisquam sunt temporibus 
+                        iure molestias beatae placeat eum fugiat accusamus maiores quidem enim!
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente accusamus 
+                        eveniet quisquam fugiat dignissimos amet et nam laudantium veritatis, nisi 
+                        possimus beatae ab assumenda esse pariatur voluptatem minus doloribus rem.
+                    </p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 mx-auto">   
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur quam est quas. 
+                        Corporis reprehenderit molestias in assumenda fugiat voluptatum error nostrum adipisci 
+                        non tempore, quidem saepe. Velit dolor ab impedit!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis deserunt iusto quas, 
+                        fugiat asperiores nisi sed sunt officia illo facilis deleniti cupiditate dolorem eligendi 
+                        exercitationem doloremque. Dolor placeat modi corporis.
+                        <div class="text-center bg-info"><i class="fas fa-mountain"></i></div>
+                    </p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 mx-auto">
+                    <p><div class="text-center bg-info"><i class="fas fa-route"></i></div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam qui enim molestias 
+                        quibusdam, quidem omnis in laborum corrupti alias consequatur repudiandae facilis unde? 
+                        Enim, labore neque. Excepturi consequuntur voluptas incidunt.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita cumque hic officia 
+                        tempora ea ut assumenda voluptate, natus suscipit enim vitae aut, quod blanditiis alias 
+                        magni non quia consequuntur earum?
+                    </p>
+                </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 mx-auto">   
-                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur quam est quas. 
-                    Corporis reprehenderit molestias in assumenda fugiat voluptatum error nostrum adipisci 
-                    non tempore, quidem saepe. Velit dolor ab impedit!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis deserunt iusto quas, 
-                    fugiat asperiores nisi sed sunt officia illo facilis deleniti cupiditate dolorem eligendi 
-                    exercitationem doloremque. Dolor placeat modi corporis.<br>
-                    <i class="fas fa-mountain"></i>
-                </p>
-            </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 mx-auto">
-                <p><i class="fas fa-route"></i><br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam qui enim molestias 
-                    quibusdam, quidem omnis in laborum corrupti alias consequatur repudiandae facilis unde? 
-                    Enim, labore neque. Excepturi consequuntur voluptas incidunt.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita cumque hic officia 
-                    tempora ea ut assumenda voluptate, natus suscipit enim vitae aut, quod blanditiis alias 
-                    magni non quia consequuntur earum?
-                </p>
-            </div>
-        </div>
     </section>
 
 
@@ -154,42 +155,41 @@
         </section>
     </section>
 
-    <section class="conteiner text-white p-5" id="contacto">
+    <section class="conteiner text-white p-5" id="contactos">
         <h4 class="py-5 mx-3 text-center fw-bold text-white">CONTACTO</h4>
-        <div class="mb-3">
-            <label for="formGroupExampleInput" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
-          </div>
-          <div class="mb-3">
-            <label for="formGroupExampleInput2" class="form-label">Asunto</label>
-            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
-          </div>
-          <div class="mb-3">
-            <label for="formGroupExampleInput2" class="form-label">Mensaje</label>
-            <input type="text" class="form-control" id="formGroupExampleInput2" style="height: 100px" placeholder="">
-          </div>
-          <button type="submit" class="btn btn-info text-white">Enviar</button>
+            <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Asunto</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Mensaje</label>
+                <textarea class="form-control" placeholder="" id="floatingTextarea2" style="height: 100px"></textarea>
+            </div>
+            <button type="submit" class="btn btn-info text-white">Enviar</button>
+            
     </section>
 
 
-    <footer id="pie">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-info">
-            <div class="container">
-              <a class="navbar-brand" href="#">VIAJES CHILE</a>
-                <div class="navbar justify-content-end" id="navbarNavAltMarkup">
-                    <div class="navbar">
-                        <a href="" class="icono py-2"><i class="fab fa-github-square"></i></a>
-                        <a href="" class="icono py-2"><i class="fab fa-linkedin"></i></a>
-                        <a href="" class="icono py-2"><i class="fab fa-twitter-square"></i></a>                    
-                        <a href="" class="icono py-2"><i class="fab fa-facebook-square"></i></a>
-                    </div>
-                </div>
-            </div>
-          </nav>
+    <footer class="container-fluid bg-info" id="pie">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center py-3">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-white text-decoration-none lh-1">VIAJES CHILE</a>
+            </div>          
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a href="" class="icono py-2"><i class="fab fa-github-square"></i></a></li>
+                <li class="ms-3"><a href="" class="icono py-2"><i class="fab fa-linkedin"></i></a></li>
+                <li class="ms-3"><a href="" class="icono py-2"><i class="fab fa-twitter-square"></i></a> </li>
+                <li class="ms-3"><a href="" class="icono py-2"><i class="fab fa-facebook-square"></i></a></li>
+                </ul>
+            </div>      
     </footer>
  
 
- <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
