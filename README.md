@@ -35,6 +35,6 @@ Las tecnologias usadas fueron:
 
 - Autor: Bárbara Villaseñor
 
-## Sobre el autor del curso DESARROLLO DE APLICACIONES FULL STACK PYTHON TRAINEE.
+## Sobre el autor 
 
-Bárbara Villaseñor, estudiante 
+Bárbara Villaseñor, estudiante del curso DESARROLLO DE APLICACIONES FULL STACK PYTHON TRAINEE.
