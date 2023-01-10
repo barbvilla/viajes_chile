@@ -7,16 +7,6 @@ a través de las distintas unidades. Para esto, puedes guiarte por la siguiente 
 
 ![Life bank](https://github.com/barbvilla/viajes_chile/blob/main/assets/img/Screenshot%202022-01-23%20at%2013-42-49%20Viajes%20Chile.png)
 
-## Sobre el proyecto
-
-El proyecto Viajes Chile es parte del desarrollo del Bootcamp FullStack Phyton impartido por Edutecno.
-
-Este se realiza para evaluar los conocimientos adquiridos por cada alumno durante el Módulo 2.
-
-## Proposito del proyecto
-
-El proposito del proyecto es aplicar todo los conocientos entregados en el módulo 2 del curso DESARROLLO DE APLICACIONES FULL STACK PYTHON TRAINEE.
-
 ## Versión
 Se usó GitHub para el versionado.
 
@@ -37,4 +27,4 @@ Las tecnologias usadas fueron:
 
 ## Sobre el autor 
 
-Bárbara Villaseñor, estudiante del curso DESARROLLO DE APLICACIONES FULL STACK PYTHON TRAINEE.
+Bárbara Villaseñor.
