@@ -21,7 +21,7 @@ Las tecnologias usadas fueron:
 - GitHub
 - GitHub Page
 
-## Contrubución
+## Contribución
 
 - Autor: Bárbara Villaseñor
 
